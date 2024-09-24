@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ex20 {
   public static void aryIns(int[] a, int idx, int x) {
+    // 뒤로 하나씩 밀어줌
     for (int i = a.length - 1; i > idx; i--) {
       a[i] = a[i - 1];
     }
